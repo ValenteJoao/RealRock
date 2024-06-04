@@ -26,6 +26,7 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/notyf@3.0.0/notyf.min.css"
         />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={JosefinSans.className}>
         <main className="flex max-md:flex-col">
