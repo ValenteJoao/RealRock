@@ -3,17 +3,6 @@ import Link from "next/link";
 import React from "react";
 import { FaSpotify } from "react-icons/fa6";
 
-interface BandContainerProps {
-  band: {
-    id: number;
-    name: string;
-    origin: string;
-    genres: string[];
-    spotifyLink: string;
-    coverImage: string;
-  };
-}
-
 function BandContainer({ band }: BandContainerProps) {
   const lastWordOfOrigin = band.origin.split(" ").pop();
 

@@ -28,7 +28,7 @@ export default function RootLayout({
         />
       </head>
       <body className={JosefinSans.className}>
-        <main className="flex">
+        <main className="flex max-md:flex-col">
           <Aside />
           {children}
         </main>
