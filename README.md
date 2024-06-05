@@ -10,9 +10,7 @@ Este projeto é uma aplicação web desenvolvida com Next.js que utiliza SSR (Se
 ## Tecnologias Utilizadas
 - Next.js
 - React
-- JavaScript
-- HTML
-- CSS
+- Tailwind
 - API do JSON Server (https://my-json-server.typicode.com/)# Projeto: Melhores Bandas de Rock do Mundo
 
 ## Descrição
